@@ -185,18 +185,3 @@ public class OrderServiceImpl {
 - **Testing:** verify routing with integration tests that can distinguish primary from replica connections. Also test that write methods never use the replica.
 - **Spring Boot versions:** the sample source notes that `DataSourceProperties` and `EntityManagerFactoryBuilder` package names differ between Spring Boot 3.x and 4.x. Use imports that match the Spring Boot version in your project.
 
-## Deploy as a GitHub Pages site
-
-This repository includes an `index.md` and a minimal Jekyll configuration so the documentation can be published with GitHub Pages.
-
-1. Push the repository to GitHub.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select your branch (usually `main`) and the repository root (`/`), then save.
-5. Wait for the Pages deployment to finish. GitHub will show the published URL in the Pages settings.
-
-The site entry point is `index.md`. `README.md` remains the repository landing-page documentation shown on GitHub.
-
-## Scope
-
-This repository is an architecture/template reference. The example code and package names should be adapted and validated against the target application's Spring Boot version, entity model, repository definitions, and database replication setup.
