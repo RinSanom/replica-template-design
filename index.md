@@ -184,3 +184,9 @@ public class OrderServiceImpl {
 - **Testing:** verify routing with integration tests that can distinguish primary from replica connections. Also test that write methods never use the replica.
 - **Spring Boot versions:** the sample source notes that `DataSourceProperties` and `EntityManagerFactoryBuilder` package names differ between Spring Boot 3.x and 4.x. Use imports that match the Spring Boot version in your project.
 
+## Author
+
+**Created and maintained by [Rin Sanom](https://github.com/rinsanom)**
+
+If you find this template useful, feel free to ⭐ the repository.
+
