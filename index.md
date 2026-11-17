@@ -1,4 +1,3 @@
-# PostgreSQL Primary–Replica Template
 
 A reusable Spring Boot + Spring Data JPA template for routing selected read operations to a PostgreSQL read replica while keeping writes and consistency-sensitive operations on the primary database.
 
